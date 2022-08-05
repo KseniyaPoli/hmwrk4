@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class First {
+public class RegistrationFormTest {
 
     @BeforeAll
     static void configure() {
@@ -35,7 +35,7 @@ public class First {
         $("#subjectsInput").setValue("Economics").pressEnter();
         $("[for = hobbies-checkbox-1]").click();
         $("[for = hobbies-checkbox-3]").click();
-        $("#uploadPicture").uploadFile(new File("src/test/java/1st.jpg"));
+        $("#uploadPicture").uploadFile(new File("src/test/resources/1st.jpg"));
         $("#currentAddress").setValue("Obninsk");
         $("#state").click();
         $(byText("Haryana")).click();

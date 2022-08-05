@@ -29,3 +29,10 @@ build/
 hs_err_pid*# Default ignored files
 /shelf/
 /workspace.xml
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
